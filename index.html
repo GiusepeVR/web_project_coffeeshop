@@ -117,89 +117,51 @@
           </div>
         </section>
         <section class="reservation" id="reservation">
-          <!-- <div class="events__content">
-            <h2 class="events__heading">Próximos eventos:</h2>
-            <h3 class="events__title">
-              En honor de Joan Feynman: mujeres en la astrofísica
-            </h3>
-            <div class="event-info events__info-section">
-              <div class="event-info__item">
-                <img
-                  src="./images/icon_calendar.svg"
-                  alt="Calendar icon"
-                  class="event-info__icon"
+          <div class="reservation__content">
+            <h2 class="reservation__title">Reservar una mesa</h2>
+            <form class="reservation__form form">
+              <fieldset class="form__fieldset fieldset">
+                <label class="form__label" for="name">Nombre *</label>
+                <input
+                  class="form__input"
+                  type="text"
+                  placeholder="Nombre"
+                  id="name"
+                  required
                 />
-                <p class="event-info__text">Lunes 12 de enero</p>
-              </div>
-              <div class="event-info__item">
-                <img
-                  src="./images/icon_pin.svg"
-                  alt="Pin icon"
-                  class="event-info__icon"
+
+                <label class="form__label" for="customers"
+                  >Número de comensales *</label
+                >
+                <input
+                  class="form__input"
+                  type="number"
+                  placeholder="1-8"
+                  id="customers"
+                  required
                 />
-                <p class="event-info__text">
-                  Sala de conferencias y virtual de la biblioteca Triple Peaks
-                </p>
-              </div>
-            </div>
-            <p class="events__description">
-              En este evento, en el que celebramos el nombre de nuestra
-              biblioteca, nuestra invitada nos llevará a través de un viaje para
-              conocer a algunas de las mujeres investigadoras más importantes en
-              el mundo de la ciencia espacial. Es fácil caer en la falsa idea de
-              que este campo está principalmente dominado por hombres, pero
-              nuestra conferencia busca cambiar esa noción y probar que no ha
-              sido así desde, al menos, el siglo XVII.
-            </p>
-            <a href="#" class="events__more">Más eventos &rarr;</a>
-          </div>
-          <div class="events__cover">
-            <img
-              class="events__image"
-              src="./images/cafe.png"
-              alt="Ilustración isométrica de una cafetería"
-            />
-            <div class="person person_name_feynman">
-              <p class="person__caption">Joan Feynman</p>
-              <img
-                class="person__image person__image_size_l"
-                src="./images/person_feynman.png"
-                alt="Joan Feynman portrait"
-              />
-            </div>
-            <div class="person person_name_tarter">
-              <p class="person__caption">Jill Tarter</p>
-              <img
-                class="person__image person__image_size_m"
-                src="./images/person_tarter.png"
-                alt="Retrato de Jill Tarter"
-              />
-            </div>
-            <div class="person person_name_burbidge">
-              <p class="person__caption">Margaret Burbidge</p>
-              <img
-                class="person__image person__image_size_m"
-                src="./images/person_burbidge.png"
-                alt="Retrato de Margaret Burbidge"
-              />
-            </div>
-            <div class="person person_name_mitchell">
-              <img
-                class="person__image person__image_size_s"
-                src="./images/person_mitchell.png"
-                alt="Retrato de Maria Mitchell"
-              />
-              <p class="person__caption">Maria Mitchell</p>
-            </div>
-            <div class="person person_name_cannon">
-              <img
-                class="person__image person__image_size_m"
-                src="./images/person_cannon.png"
-                alt="Retrato de Annie Jump Cannon"
-              />
-              <p class="person__caption">Annie Jump Cannon</p>
-            </div>
-          </div> -->
+
+                <label class="form__label" for="date">Fecha y hora *</label>
+                <input class="form__input" type="date" id="date" required/>
+
+                <label class="form__label" for="email"
+                  >Tu correo electrónico *</label
+                >
+                <input
+                  class="form__input"
+                  type="email"
+                  placeholder="email@email.com"
+                  id="email" required
+                />
+
+                <button class="form__button" type="submit">Reservar una mesa</button>
+
+                <label class="form__label checkbox-centered" for="terms"
+                  ><input class="form__checkbox" type="checkbox" id="terms" required/>Acepto los términos de uso</label
+                >
+
+              </fieldset>
+            </form>
         </section>
       </main>
       <footer class="footer" id="#footer">
