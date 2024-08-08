@@ -7,9 +7,9 @@
     <meta name="keywords" content="Cafetería, Restaurante" />
     <meta name="author" content="Giusepe" />
     <title>Cafetería</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!--El parser de revisiones automáticas de tripleten parece no admitir las fuentes variables como Inter-->
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
       rel="stylesheet"
@@ -172,31 +172,19 @@
           </div>
         </section>
       </main>
-      <footer class="footer" id="#footer">
-        <!-- <div class="footer__columns">
-          <div class="footer__column">
-            <img
-              class="footer__logo"
-              src="./images/logo_white.svg"
-              alt="Logo"
-            />
-          </div>
-          <div class="footer__column footer__column_content_hours">
-            <h4 class="footer__column-heading">Horario de apertura</h4>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            class="footer__logo"
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h4 class="footer__social-heading">Redes sociales</h4>
             <ul class="footer__list">
               <li class="footer__list-item">
-                Lunes a viernes: 9 a.m. -- 8 p.m.
-              </li>
-              <li class="footer__list-item">
-                Sábados y domingos: 10 a.m. -- 6 p.m.
-              </li>
-            </ul>
-          </div>
-          <div class="footer__column footer__column_content_social">
-            <h4 class="footer__column-heading">Redes sociales</h4>
-            <ul class="footer__list">
-              <li class="footer__list-item">
-                <a class="footer__column-link" href="#">
+                <a class="footer__social-link" href="#">
                   <img
                     class="footer__social-icon"
                     src="./images/facebook_white.svg"
@@ -206,7 +194,7 @@
                 </a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__column-link" href="#">
+                <a class="footer__social-link" href="#">
                   <img
                     class="footer__social-icon"
                     src="./images/instagram_white.svg"
@@ -218,7 +206,7 @@
             </ul>
           </div>
         </div>
-        <p class="footer__copyright">© 2024 Giusepe V.R.</p> -->
+        <p class="footer__copyright">© 2024 Giusepe V.R.</p>
       </footer>
     </div>
   </body>
